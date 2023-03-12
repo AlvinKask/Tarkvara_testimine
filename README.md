@@ -1,4 +1,5 @@
-# Tarkvara testimise 25 tüüpi
+# Tarkvara testimise 25 tüüpi 
+#### https://www.netsolutions.com/insights/definitive-software-testing-list/
 
 Tarkvara testimine on tarkvara arendusprotsessi jaoks ülioluline. See suurendab usaldust, säästab tarbetut aega ja vaeva probleemide lahendamisel ning aitab täiustada tarkvaraarenduse standardeid. Seetõttu on tarkvara testimisel väga oluline järgida hoolikalt kavandatud lähenemisviisi.
 
@@ -22,7 +23,7 @@ Veelgi kriitilisem on valida tarkvara testimise tüüp, mis sobib paremini teie 
 ## Tarkvara testimise tüübid
 Sellised tarkvara testimise tüübid nagu agiilne testimine, mittefunktsionaalne testimine, automatiseerimise testimine ja funktsionaalne testimine ning nende alatüübid on tööstuses levinud. Igal testimisel on oma eelised, omadused ja puudused. Loe mõne sellise tarkvara testimise tüübi kohta.
 
-## A. Funktsionaalne testimine
+# A. Funktsionaalne testimine
 Funktsionaalsel testimisel kontrollime tarkvara vastavust selle kohaldatavatele nõuetele/spetsifikatsioonidele. Idee on tagada, et see toimiks vastavalt määratud nõuetele. Selle lähenemisviisi puhul testime iga tarkvara funktsiooni, pakkudes lihtsaid sisendeid, jäädvustades selle töödeldavaid väljundeid ja võrreldes neid tegelike tulemustega.
 
 Mõned näited funktsionaalsest testimisest on järgmised:
@@ -90,9 +91,127 @@ Operatiivse vastuvõtu testimise põhirõhk:
 - Tarkvara hooldamine.
 
 ## 5. Regression testing
-
 Regressioonitesti eesmärk on kinnitada, et hiljutine programmi või koodi muudatus ei avalda olemasolevatele funktsioonidele kahjulikku mõju. Regressioonitestimise kõiki raamistikke on raske katta, nii et testijad kasutavad seda tüüpi testimiseks mehhaniseerimise testimisvahendeid.
 
+![1](https://user-images.githubusercontent.com/115221752/224542738-2a9e36c5-ca51-4520-859d-faed8b8bb838.JPG)
 
+## 6. GUI Software testing
+GUI testimine on teatud tüüpi testimistehnika, kus testitakse rakenduse graafilist kasutajaliidest. See testimine hõlmab ekraanide kontrollimist juhtelementidega, nagu menüüd, nupud, ikoonid ja igat tüüpi ribad – tööriistariba, menüüriba, dialoogikastid, aknad jne.
 
+![1](https://user-images.githubusercontent.com/115221752/224542839-c8dfc593-c22e-43ad-a6aa-8190ec50b9f9.JPG)
 
+# B. Mittefunktsionaalne testimine
+Nagu nimigi viitab, keskendub mittefunktsiooni testimine tarkvararakenduse mittefunktsionaalsetele aspektidele, nagu jõudlus, kasutatavus ja töökindlus. Lõppeesmärk on testida, kas tarkvara on mittefunktsionaalsete parameetrite järgi (mida funktsionaalne testimine ei käsitle) valmis või mitte.
+
+Funktsioneerimata testimise silmapaistev näide võib olla kontrollimine, kui palju inimesi saab korraga rakendusse sisse logida või kui palju liiklust e-kaubanduse veebisait korraga käsitleda suudab.
+
+**Siin on erinevat tüüpi mittefunktsionaalsed testid:**
+
+## 7. Security testing
+Turvatestimisel tehakse erinevaid teste tagamaks, et Sinu rakendus/veebileht on turvaline kõikide sisemiste ja väliste küberohtude eest. Samuti testib see, kuidas teie tarkvara käitub sellise rünnaku korral.
+
+Populaarne turvatesti tüüp on läbitungimistest, mille käigus eetiliste häkkerite rühm üritab süsteemi rikkuda, et tuvastada selle nõrgad kohad.
+
+## 8. Performance testing
+Jõudlustestimisel testime veebisaidi/rakenduse stabiilsust ja reageerimisaega, rakendades koormust. See testimine toimub selliste tööriistade abil nagu JMeter, LoadRunner, Loader.IO jne.
+
+Siin on mõned jõudluse testimise tüübid:
+- Load testing: veebisaidi/rakenduse toimivuse testimine, rakendades koormust, mis on väiksem või võrdne määratletud kasutajate arvuga.
+- Stress testing: testime rakenduse stabiilsust ja reageerimisaega, rakendades rohkem koormust kui määratud arv kasutajaid.
+- Scalability testing: rakenduse stabiilsuse ja reaktsiooniaja testimine, suurendades järk-järgult selle koormust.
+- Volume testing: edastame andmebaasi suure hulga andmeid, et testida selle andmetöötlusvõimet.
+- Endurance testing: pidev koormuse rakendamine pikema aja jooksul, et kontrollida, kas rakendus töötab hästi.
+
+## 9. Usability testing
+Kasutatavuse testimisel testime rakendust kasutajate vaatenurgast, et kontrollida, kas see on kasutajasõbralik või mitte. Siin on erinevat tüüpi kasutatavuse testimine:
+- Exploratory testing: mitteametlik tarkvara testimise tehnika, mille käigus uurime rakendust ja otsime vigu.
+- Cross-browser testing: veebisaidi/rakenduse testimine erinevates operatsioonisüsteemides, brauserites ja mobiilseadmetes, et näha, kuidas see välja näeb ja tundub.
+- Accessibility testing: tarkvara testimine, et näha, kas see on puuetega inimestele juurdepääsetav või mitte.
+
+## 10. Compatibility testing
+Ühilduvuse testimine kontrollib, kuidas rakendus veebiserverites, riistvaras ja võrgukeskkondades töötab ja käitub. Idee on tagada, et teie rakendus töötab jätkuvalt andmebaasist, brauserist ja konfiguratsioonidest sõltumata.
+
+Brauseri ühilduvuse testimine on populaarne ühilduvuse testimise meetod, mille käigus testime, kas tarkvara töötab erinevate brauserite ja operatsioonisüsteemide kombinatsioonidega või mitte.
+
+## 11. Failover testing
+Tõrkekontrolli testimisel kontrollime, kas rakendus saab järsu ebaõnnestumise korral eraldada lisaressursse või varundada teavet. Eesmärk on tagada, et rakendus saab hakkama kriitiliste tõrgetega ja vastavalt nõuetele skaleerida üles või alla.
+
+![1](https://user-images.githubusercontent.com/115221752/224543170-b2d9ab15-2101-4611-a7e9-caeba30f624e.JPG)
+
+## 12. Maintainability testing
+Hooldatavuse testimisel testime süsteemi võimet rakendust värskendada ja muuta. See on oluline, kuna rakendus läbib mitmesuguseid tarkvara elutsükli muudatusi. Samuti vajab see hooldust, kui see on eluea jooksul, kus see peab läbima mitmeid muudatusi. Järgmised on neli kategooriat, mida hooldatavuse testimine käsitleb:
+- Corrective maintenance: rakenduse probleemide diagnoosimiseks ja parandamiseks kuluv aeg.
+- Perfective maintenance: jõupingutused ja aeg, mida teie meeskond võib vajada rakenduse vajalike täiustuste tegemiseks.
+- Adaptive maintenance: aeg ja pingutus, mis kulub keskkonnamuutustega kohanemiseks.
+- Preventive maintenance: meetmed, mida peame hoolduskulude vähendamiseks tulevikus.
+
+## 13. Compliance testing
+Vastavuse testimine on mittefunktsionaalne tarkvara testimise tehnika, mille käigus kontrollime, kas rakendus vastab tööstusstandarditele või mitte. See hõlmab juurdepääsuõiguste, dokumentatsiooniprotseduuride ja programmimuudatuste kontrollimise protseduure.
+
+## 14. Efficiency testing
+Tõhususe testimisel valideerime, kui palju ressursse vajab rakendus konkreetse funktsiooni täitmiseks. See termin näitab, kui palju vaeva arendab rakendus ja tagab kasutaja rahulolu.
+
+![1](https://user-images.githubusercontent.com/115221752/224543353-9f99e129-804f-4d68-938f-8855b6968639.JPG)
+
+## 15. Reliability testing
+Usaldusväärsuse testimisel kontrollime, kas tarkvara saab konkreetses keskkonnas teatud perioodi jooksul tõrgeteta töötada. Lõppeesmärk on tagada, et tarkvara oleks vigadest vaba ja piisavalt usaldusväärne, et täita oma eesmärki.
+
+![1](https://user-images.githubusercontent.com/115221752/224543468-d6e29467-8e54-422f-aa6e-cfd8430a759f.JPG)
+
+## 16. Disaster recovery testing
+Avariitaastetest on protsess, mis tagab, et organisatsioon saab taastada andmed ja rakendused ning jätkata tegevust pärast oma teenuste katkemist, näiteks kriitilist IT-tõrget või täielikku katkestust.
+
+![1](https://user-images.githubusercontent.com/115221752/224543524-11eaf0ef-f21e-499b-90cd-bec2ca62643e.JPG)
+
+## 17. Localization testing
+Lokaliseerimise testimisel kontrollime tarkvara käitumist ja täpsust konkreetsetes asukohtades. Idee on tagada, et tarkvara töötaks vastavalt selle piirkonna vajadustele.
+
+Lokaliseerimise testimise näide on kasutajaliidese, kuupäeva ja kellaaja vormingu ning keelesõnavara rakenduse testimine.
+
+![1](https://user-images.githubusercontent.com/115221752/224543597-b57e3eb7-49f3-4f1f-8d9c-6af0a991eeef.JPG)
+
+## 18. Internationalization testing
+Rahvusvahelistumise testimine on protsess, mille käigus tagame rakenduse kohandatavuse erinevatele kultuuridele ja keeltele üle maailma, et nad saaksid hakkama rahvusvahelise toega ilma lähtekoodi muutmata. Rahvusvahelistumise testimise kriitiline eesmärk on muuta rakendus ülemaailmsele publikule kasutatavaks.
+
+![1](https://user-images.githubusercontent.com/115221752/224543634-739d7f87-2b13-4fea-b779-e9c8114f5c81.JPG)
+
+# Muud tüüpi tarkvara testimine
+
+## 19. Ad-hoc testing
+Ad-hoc testimine on tarkvara testimise lähenemisviis, mis on erakordselt juhuslik ja struktureerimata. Selle testi saavad läbi viia kõik testijad, kellel pole viidet ühelegi katsele või testi konfiguratsioonikirjele. Ad-hoc testimise eesmärk on avastada defekte, mida olemasolevad testid ei leidnud.
+
+![1](https://user-images.githubusercontent.com/115221752/224543697-14cc3173-e24d-463e-8179-91256e6f6d1f.JPG)
+
+## 20. Backward Compatibility testing
+See on programmeerimistest, mille eesmärk on kontrollida, kas tarkvara värskem variant töötab tõhusalt võrreldes eelmise versiooniga. Samuti tuleb uurida tegureid, kas tarkvara ajakohasem vorm töötab hästi koos tabelistruktuuri, andmestruktuuride ja toote varasema versiooni tehtud kirjetega.
+
+![1](https://user-images.githubusercontent.com/115221752/224543817-dda38cb5-d64b-48bc-90cb-ef410aa59b21.JPG)
+
+## 21. Boundary Value testing
+See testimistehnika järgib kontseptsiooni, mida nimetatakse "veakogumiteks piiridel". See on üks ulatuslikumaid teste, mida tarkvaraga tehakse, et kontrollida piirtingimustel esinevaid defekte. Testimine tehakse väärtuste 101, 100, 99, 2, 1 ja 0 puhul aktsepteeritud väärtuste 1 kuni 100 jaoks.
+
+![1](https://user-images.githubusercontent.com/115221752/224543855-5f43dbc3-0c72-4d38-805b-bb6deca82679.JPG)
+
+## 22. API testing
+API (application programming interface) testimine on tarkvara testimise tüüp, mis sarnaneb üksuse testimisega. Iga tarkvara API-d proovitakse vastavalt API määratlusele. Testimisrühm teostab API testimist, kui API-d ei ole keerulised ega vaja laiapõhjalist kodeerimist.
+
+![1](https://user-images.githubusercontent.com/115221752/224543921-1585e3e7-835d-43f6-85a5-8083fa68c333.JPG)
+
+## 23. Negative testing
+Negatiivne testimine on viis tarkvara testimiseks nii, et rakendus töötab vastavalt kasutaja nõudmistele ning saab hakkama soovimatu sisendi ja kasutaja käitumisega. Selle testi käivitab eksliku või kehtetu teabe vastuvõtmine.
+
+![1](https://user-images.githubusercontent.com/115221752/224543959-feef5e57-876b-43a8-99de-a29fc385447b.JPG)
+
+## 24. Mutation testing
+Mutatsioonitestimine on omamoodi valge kasti testimine, mille käigus testija muudab ühte programmi lähtekoodidest. See kontrollib, kas praegused katsed suudavad tuvastada raamistiku deformatsioone või mitte. Programmi lähtekoodi kohandamine on äärmiselt tühine eesmärgiga, et see ei tohi mõjutada kogu rakendust, vaid ainult konkreetset tsooni, mis on mõju tunnistajaks.
+
+![1](https://user-images.githubusercontent.com/115221752/224544002-5ade634e-8be9-4364-bcb1-5cced441f05a.JPG)
+
+## 25. Multi-tenancy testing
+Mitme rentniku testimise eesmärk on avastada ja parandada lünki mitme rentnikuga süsteemides. Selle testimismeetodi peamiseks põhjuseks on see, et mitme rentnikuga süsteemides on suurem risk süsteemi purunemiseks, kui lisate tarkvaraprogrammi koodi muudatusi. Mitme üürilepingu testimine tagab, et midagi sellist ei juhtu.
+
+Mitme üürilepingu testimisel testime rakendust kolmest aspektist: rakendus, infrastruktuur ja võrk. Mitme rentniku rakenduste lünkade tuvastamiseks ja parandamiseks viime läbi järgmist tüüpi teste:
+- Andmelekke testid võimalike ummikseisude, andmetega seotud rikkumiste või muude võimalike probleemide tuvastamiseks.
+- Load testid, et teha kindlaks kitsaskohad teie rakenduses.
+- Litsentsi/funktsiooni testimine funktsioonide ja litsentside kinnitamiseks.
+- Turvatestid selliste ohtude tuvastamiseks nagu SQL-i süstid, trooja hobused ja lunavara.
