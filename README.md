@@ -34,8 +34,6 @@ Mõned näited funktsionaalsest testimisest on järgmised:
 **Funktsionaalset testimist on erinevat tüüpi. Siin on mõned populaarsed:**
 
 ## 1. Unit testing
-![1](https://user-images.githubusercontent.com/115221752/224541922-f35239e1-f3a7-4203-ab2b-889414b14184.JPG)
-
 Üksuse testimine on tarkvara testimise tehnika, mis hõlmab tarkvara üksiku üksuse või komponendi testimist, et kontrollida selle täpsust. Arendajad teevad seda tavaliselt tarkvaraarenduse etapis ja nende testide läbiviimiseks kasutavad nad testimise automatiseerimise tööriistu, nagu NUnit, Xunit ja JUnit.
 
 Näiteks kui on olemas lihtne sõnumsiderakendus. Arendaja kirjutab enne lisafunktsioonide kallal töötamist seadmetesti, et kontrollida, kas kasutaja saab sõnumeid saata või vastu võtta. Üksuse testimine on hädavajalik, sest vigade leidmine ja parandamine arendusfaasis on hõlpsamini kättesaadav kui nende hilisem parandamine.
@@ -43,6 +41,8 @@ Näiteks kui on olemas lihtne sõnumsiderakendus. Arendaja kirjutab enne lisafun
 On olemas järgmist tüüpi üksuse testimine:
 - White- box testing: testimistehnika, mille puhul rakenduse sisemine struktuur või kood on seda testivale isikule nähtav ja juurdepääsetav.
 - Gorilla testing: Gorilla testimisel testime rakendusmoodulit põhjalikult kõigi oluliste aspektide osas. Selle tehnikaga testime rakenduse töökindlust.
+
+![1](https://user-images.githubusercontent.com/115221752/224541922-f35239e1-f3a7-4203-ab2b-889414b14184.JPG)
 
 ## 2. Integration testing
 Integratsioonitestimine on tarkvara testimise tüüp, mille puhul grupeerime loogiliselt kaks või enam rakendusmoodulit ja testime neid tervikuna. Idee on avastada viga erinevate moodulite vahelises suhtluses, liideses ja andmevoos.
@@ -72,8 +72,6 @@ Järgmised süsteemi testimise meetodid on olemas:
 ![1](https://user-images.githubusercontent.com/115221752/224542373-6169d309-8473-4ea7-81f2-5f78620c902c.JPG)
 
 ## 4. Acceptance testing
-![1](https://user-images.githubusercontent.com/115221752/224542458-4f936bc9-cbd8-47f0-bfa8-71dd05a985d3.JPG)
-
 Acceptance testing ehk UAT (user acceptance testing) on ametlik testimistehnika, mille viib läbi lõppklient. Selle lähenemisviisi korral testib klient rakendust reaalsete äristsenaariumide jaoks. Nad aktsepteerivad rakendust ainult siis, kui see kinnitab nende ärivajadusi ja neile seatud eeldusi.
 
 Testimise viimane etapp on vastuvõtutest. Kui tarkvara siin on heaks kiidetud, läheb see tootmisse.
@@ -89,6 +87,8 @@ Operatiivse vastuvõtu testimise põhirõhk:
 - Taastamisprotsess loodusõnnetuse korral.
 - Kasutajate haldamine.
 - Tarkvara hooldamine.
+
+![1](https://user-images.githubusercontent.com/115221752/224542458-4f936bc9-cbd8-47f0-bfa8-71dd05a985d3.JPG)
 
 ## 5. Regression testing
 Regressioonitesti eesmärk on kinnitada, et hiljutine programmi või koodi muudatus ei avalda olemasolevatele funktsioonidele kahjulikku mõju. Regressioonitestimise kõiki raamistikke on raske katta, nii et testijad kasutavad seda tüüpi testimiseks mehhaniseerimise testimisvahendeid.
