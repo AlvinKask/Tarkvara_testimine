@@ -1,5 +1,8 @@
 [Tarkvara testimine.zip](https://github.com/AlvinKask/Tarkvara_testimine/files/11082560/Tarkvara.testimine.zip)
 
+- [Tarkvara testimine.zip](https://github.com/AlvinKask/Tarkvara_testimine/files/11121999/Tarkvara.testimine.zip)
+
+
 # Tarkvara testimise 25 tüüpi 
 #### https://www.netsolutions.com/insights/definitive-software-testing-list/
 
